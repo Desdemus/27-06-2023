@@ -1,4 +1,4 @@
-import "./ProductItem.css";
+import "./index.css";
 
 const ProductItem = ({ data, setProductSection }) => {
   const onHandleClick = () => setProductSection(data.strDrink);
